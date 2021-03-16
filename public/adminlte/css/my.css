@@ -1,0 +1,76 @@
+#login{
+    /*background-image: url("hello.jpg") ;*/
+    background-size: cover;
+    background: #FDFCF0;
+}
+.login-box{
+    background: rgba(0, 0, 0, 0.46);
+    color: white!important;
+}
+.login-box-body{
+    /*background: transparent;*/
+    color: white;
+    font-size: 18px;
+    background: rgba(0, 0, 0, 0.46);
+
+}
+.login-box-body, lable{
+    text-align: center;
+}
+.login-logo{
+    color: black;
+}
+.link-black{
+    display: block;
+    color: white;
+}
+#myDIV {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    text-align: center;
+    /*overflow: auto;*/
+}
+.items{
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 10);
+    -moz-box-shadow:0px 0px 6px rgba(0, 0, 0, 10);
+    -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 10);
+    text-overflow: ellipsis;
+}
+img{
+    max-width: 100% ;
+}
+#myDIV .col-md-3:nth-child(4n+1){
+    clear: left;
+}
+@media (max-width: 768px) {
+    #myDIV .col-sm-6:nth-child(2n+1){
+        clear: left;
+    }
+}
+.item-title{
+    height: 50px;
+}
+.item-title, a{
+    color: black;
+}
+.items:hover{
+    background-color: #FFF8C4;
+    -webkit-transform: scale(1.002);
+    -moz-transform: scale(1.002);
+    -ms-transform: scale(1.002);
+    transform: scale(1.002);
+}
+.active-film{
+    background-color: #FFF8C4;
+
+}
+table{
+    text-align: center;
+    font-size: 20px;
+}
+.editor_create{
+    float: right;
+}

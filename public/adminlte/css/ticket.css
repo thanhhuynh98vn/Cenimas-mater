@@ -1,0 +1,53 @@
+#login{
+    /*background-image: url("hello.jpg") ;*/
+    background-size: cover;
+    background: #FDFCF0;
+}
+.login-box{
+    background: rgba(0, 0, 0, 0.46);
+    color: white!important;
+}
+.login-box-body{
+    /*background: transparent;*/
+    color: white;
+    font-size: 18px;
+    background: rgba(0, 0, 0, 0.46);
+
+}
+.login-box-body, lable{
+    text-align: center;
+}
+.login-logo{
+    color: black;
+}
+.link-black{
+    display: block;
+    color: white;
+}
+#myDIV {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    text-align: center;
+    /*overflow: auto;*/
+}
+.box{
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 10);
+    -moz-box-shadow:0px 0px 6px rgba(0, 0, 0, 10);
+    -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 10);
+    text-overflow: ellipsis;
+}
+img{
+    max-width: 100% ;
+}
+
+input {
+    text-align: center;
+    max-width: 65px;
+}
+table{
+    text-align: center;
+    font-size: 18px;
+}
